@@ -1,0 +1,15 @@
+{
+  "name": "npm-lesson",
+  "version": "1.0.0",
+  "description": "npm lesson project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc index.ts && node index.js"
+  },
+  "author": "Hamlet Kirakosyan",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
