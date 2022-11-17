@@ -1,0 +1,9 @@
+
+  <div *ngFor="let item of items">
+    <div *ngIf="condition" style="backgroundColor:{{fillColor}}" >
+          <p>{{item}}</p>
+    <span (click)="delete()">Delete</span>
+    <button (click)="changeColor()">Change color</button>
+    </div>
+  </div>
+
